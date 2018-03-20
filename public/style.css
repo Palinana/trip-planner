@@ -18,17 +18,39 @@
     background-color: #f7f7f7;
     background-size: contain;
     background-repeat: no-repeat;
+    color: cadetblue;
     width: 100vw;
     text-align: center;
     font-size: 3em;
     margin-bottom: 5px;
   }
+  select{
+      background-color: black;
+      color: #f7f7f7;
+  }
 
   #lists {
     display: flex;
+    height: 4em;
   }
 
   .list {
    width: 33vw;
    height: 5em;
+   text-align: center;
+   padding-top: 1em;
+  }
+
+
+  @media screen and (max-width: 600px){
+    .list {
+        width: 100vw;
+        height: 5em;
+        font-size: -3pt;
+    }
+    #lists {
+        display: flex;
+        height: 12em;
+        flex-direction: column
+    }
   }

@@ -1,14 +1,34 @@
 * {
     box-sizing: border-box;
   }
-  
+
   body {
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #C1B5AD;
   }
+
   #map {
     height: 100vh;
     width: 100vw;
   }
-    
+
+  #navbar {
+    background-image: url('./bkg.jpg');
+    background-color: #f7f7f7;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 5px;
+  }
+
+  #lists {
+    display: flex;
+  }
+
+  .list {
+   width: 33vw;
+   height: 5em;
+  }

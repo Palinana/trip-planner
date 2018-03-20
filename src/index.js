@@ -10,4 +10,12 @@ const map = new mapboxgl.Map({
   style: "mapbox://styles/mapbox/streets-v10" // mapbox has lots of different map styles available.
 });
 
-marker.buildMarker([-74.009, 40.705], 'restaurants').addTo(map);
+marker.buildMarker([-74.009, 40.705], 'hotels').addTo(map);
+marker.buildMarker([-74.009, 41.705], 'hotels').addTo(map);
+marker.buildMarker([-74.009, 42.705], 'hotels').addTo(map);
+marker.buildMarker([-75.009, 40.705], 'restaurants').addTo(map);
+marker.buildMarker([-75.009, 41.705], 'restaurants').addTo(map);
+marker.buildMarker([-75.009, 42.705], 'restaurants').addTo(map);
+marker.buildMarker([-76.009, 40.705], 'activities').addTo(map);
+marker.buildMarker([-76.009, 41.705], 'activities').addTo(map);
+marker.buildMarker([-76.009, 42.705], 'activities').addTo(map);
